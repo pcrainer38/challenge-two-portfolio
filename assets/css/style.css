@@ -48,7 +48,7 @@ h1 {
 
 .about {
     display: flex;
-    padding: 10px;
+    padding: 20px;
     align-items: center;
     background-color: darkblue;
     border: black solid 3px;
@@ -75,27 +75,28 @@ h1 {
     align-items: center;
     flex-wrap: wrap;
 
+    overflow:scroll;
+
 }
 
 .work h2 {
     font-size: 20px;
     align-items: center;
     font-weight: bold;
-
 }
 
-img {
+/*.showcase {
+    align-self: start;
+    position: absolute;
+    margin-top: 20px;
+}*/
+img{
     height: 200px;
     width: 200px;
     position: relative;
 }
 
-.showcase {
-    align-self: start;
-    position: absolute;
-    margin-top: 20px;
 
-}
 
 .work a {
     position: absolute;
