@@ -74,7 +74,6 @@ h1 {
     height: 100vh;
     align-items: center;
     flex-wrap: wrap;
-    flex: 1 1 0;
 
 }
 
@@ -89,6 +88,13 @@ img {
     height: 200px;
     width: 200px;
     position: relative;
+}
+
+.showcase {
+    align-self: start;
+    position: absolute;
+    margin-top: 20px;
+
 }
 
 .work a {
@@ -120,7 +126,6 @@ img {
     margin: 10px;
     width: 350px;
     justify-content: space-around;
-    
 
 }
 
@@ -133,6 +138,7 @@ img {
     color:aquamarine;
 }
 
+/* resume section */
 .resume {
     display: flex;
     background-color: darkblue;
@@ -150,6 +156,11 @@ img {
 
 .resume a:hover {
     color: aquamarine;
+}
+
+@media screen and (max-width: 800px) {
+    flex-direction: column;
+    display: block;
 }
 
 @media screen and (max-width: 320px) {
