@@ -4,7 +4,7 @@
 
 /* heading and nav bar and top image */
 h1 {
-    font-size:26px;
+    font-size:30px;
     font-weight: bold;
     margin: 10px;
     color: #fff
@@ -56,7 +56,7 @@ h1 {
 }
 
 .about h2{
-    font-size: 20px;
+    font-size: 26px;
     color:#fff;
 }
 
@@ -80,8 +80,8 @@ h1 {
 }
 
 .work h2 {
-    font-size: 20px;
-    align-items: center;
+    font-size: 26px;
+    /* align-items: center; */
     font-weight: bold;
 }
 
@@ -106,6 +106,7 @@ img{
     text-decoration: none;
     font-weight: bold;
 }
+
 
 
 /* contact section */
@@ -139,6 +140,11 @@ img{
     color:aquamarine;
 }
 
+.contact h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
 /* resume section */
 .resume {
     display: flex;
@@ -146,6 +152,11 @@ img{
     padding: 10px;
     align-items: center;
     
+}
+
+.resume h2 {
+    font-size: 26px;
+    font-weight: bold;
 }
 
 .resume a {
