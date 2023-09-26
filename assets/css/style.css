@@ -14,7 +14,7 @@ h1 {
 .navbar {
     display: flex;
     justify-content: space-between;
-    height: 100px;
+    height: 150px;
     align-items: center;
     background-color: darkblue;
     padding: 10px;
@@ -40,7 +40,7 @@ h1 {
 .nav-container img{
     display: flex;
     width: 100%;
-    height: 200px;
+    height: 300px;
     margin: 0;
 }
 
@@ -52,6 +52,7 @@ h1 {
     align-items: center;
     background-color: darkblue;
     border: black solid 3px;
+    height: 150px;
 
 }
 
@@ -71,32 +72,24 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    height: 100vh;
-    align-items: center;
     flex-wrap: wrap;
-
-    overflow:scroll;
+    background-color: rgba(250, 235, 215, 0.692);
 
 }
 
 .work h2 {
     font-size: 26px;
-    /* align-items: center; */
     font-weight: bold;
 }
 
-/*.showcase {
-    align-self: start;
-    position: absolute;
-    margin-top: 20px;
-}*/
-img{
-    height: 200px;
-    width: 200px;
-    position: relative;
+.showcase {
+  width: 75%;
 }
-
-
+img{
+    height: 100%;
+    width: 100%;
+    /* position: relative; */
+}
 
 .work a {
     position: absolute;
@@ -107,7 +100,48 @@ img{
     font-weight: bold;
 }
 
+.work a:hover {
+    color:aquamarine;
+}
 
+.title {
+    width: 25%;
+    padding: 10px 10px 10px 21px;
+    align-self: center;
+
+}
+
+.block2 {
+    display: flex;
+    padding: 20px;
+}
+
+.block3 {
+    display: flex;
+    padding: 20px;
+}
+
+#card2, #card3, #card4, #card5 {
+    width: 50%;
+    height: 150px;
+    margin-right: 20px;
+    /* border: darkblue solid 2px;
+    border-radius: 5px; */
+}
+#card1 {
+    height: 350px;
+    padding: 20px;
+    margin-right: 20px;
+
+}
+
+#card2, #card4 {
+    margin-right: 5x;
+}
+
+#card3, #card5 {
+    margin-left: 5px;
+}
 
 /* contact section */
 
@@ -118,10 +152,11 @@ img{
     background-color: darkblue;
     color:#fff;
     border: black solid 3px;
-    height: 50px;
+    height: 100px;
     align-items: center;
     font-weight: bold;
 }
+
 
 .contact-links{
     display: flex;
@@ -151,6 +186,7 @@ img{
     background-color: darkblue;
     padding: 10px;
     align-items: center;
+    height: 100px;
     
 }
 
@@ -185,6 +221,10 @@ img{
     img {
         width:100px;
         height: 100px;
+    }
+
+    .contact {
+        display: block;
     }
     
 }
