@@ -92,11 +92,18 @@ img{
     /* position: relative; */
 }
 
+#card1 a {
+    color: black;
+}
+
+#card1 a:hover {
+    color:aquamarine;
+}
 .work a {
     position: absolute;
     margin-top: -25px;
     margin-left: 15px;
-    color:black;
+    color:white;
     text-decoration: none;
     font-weight: bold;
 }
@@ -142,7 +149,7 @@ img{
 
 #card2, #card4 {
     margin-right: 5x;
-    border: black solid 2px;
+    border: rgb(0, 0, 0) solid 2px;
 }
 
 #card3, #card5 {
